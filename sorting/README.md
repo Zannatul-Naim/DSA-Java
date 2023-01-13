@@ -21,8 +21,14 @@ This algorithm is quite efficient for large-sized data sets as its average and w
 ## Full implementation
 
 ```java
-public void sort(int [] inputArray) {
-    if(inputArray == null || inputArray.length == 0) return;
+package sorting;
+
+public class QuickSort {
+    private int arr[];
+    private int length;
+
+    public void sort(int [] inputArray) {
+        if(inputArray == null || inputArray.length == 0) return;
      this.arr = inputArray;
      this.length = inputArray.length;
      quickSort(0, length-1);
@@ -67,6 +73,26 @@ public void sort(int [] inputArray) {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    public static void main(String[] args) {
+        QuickSort quickSortExample = new QuickSort();
+
+        int [] inputArr = {100, 200, 60, 58, 89, 1000, 25, 48, 78, 96, 14, 1, 3, 2, 10};
+        System.out.print("Before sorting : ");
+        for(int value : inputArr) {
+            System.out.print(value + " ");
+        }
+        System.out.println();
+        
+        quickSortExample.sort(inputArr);
+
+        System.out.print("After sorting : ");
+        for(int value : inputArr) {
+            System.out.print(value + " ");
+        }
+        System.out.println();
+
+    }
+}
 
 ```
 
