@@ -54,3 +54,11 @@ public class LinearSearch {
 
 ```
 
+## Performance of Linear Search
+<hr>
+
+Worst-case performance  $O(n)$ <hr>
+Best-case performance $O(n)$ <hr>
+Average-case performance $O(n)$ <hr>
+Worst-case space complexity $O(1)$ <hr>
+
