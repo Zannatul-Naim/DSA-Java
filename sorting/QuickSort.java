@@ -1,4 +1,3 @@
-package sorting;
 
 public class QuickSort {
     private int arr[];
