@@ -107,3 +107,7 @@ public class QuickSort {
 - Worst-case performance $O(n^2)$ <hr>
 - Best-case performance $O(n log n)$ (simple partition) or O(n) (three way partition and equal keys) <hr>
 - O(n log n) <hr>
+
+# Merge Sort
+
+Tutorial for merge sort [link](https://prepinsta.com/java-program/merge-sort/)
