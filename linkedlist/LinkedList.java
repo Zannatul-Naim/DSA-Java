@@ -1,4 +1,3 @@
-package linkedlist;
 
 class Node {
   Node next;
