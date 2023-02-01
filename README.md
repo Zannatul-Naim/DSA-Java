@@ -1,2 +1,2 @@
 # Algorithms-Java
-Algorithms in Java and Implementation.
+Data Structure and Algorithms in Java and Implementation.
