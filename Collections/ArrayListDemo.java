@@ -19,5 +19,12 @@ public static void main(String[] args) {
         System.out.print(it.next() + "  ");
     } System.out.println();
 
+    // remove something from the list
+    genre.remove("fake");
+    it = genre.iterator();
+    while(it.hasNext()) {
+        System.out.print(it.next() + "  ");
+    } System.out.println();
+
 }
 }
