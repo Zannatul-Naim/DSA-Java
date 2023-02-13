@@ -79,6 +79,21 @@ public class DoublyLinkedList {
         }System.out.println();
     }
 
+    void reverseList() {
+
+        Node prev = null;
+        Node next = null;
+        Node curr = head;
+
+        while(curr != null) {
+
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+    }
+
     public int size() {
         return size;
     }
@@ -106,6 +121,10 @@ public class DoublyLinkedList {
 
         // printing the list in reverse order
         dList.printReverse();
+
+        dList.reverseList();
+        dList.print();
+
 
     }
 
